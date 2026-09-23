@@ -1,0 +1,65 @@
+{
+  "project": "Αφροδίτη Εωσφόρος",
+  "map_id": "APHRODITE_MAGELLAN_INTERNAL_H0_V2",
+  "core_id": "APHRODITE_EOSPHOROS_G_ONLY_V1_20260923",
+  "coordinate_frame": "APHRODITE_LOCAL_OMPHALOS_H0",
+  "coordinate_domain_internal_lon_deg": [
+    -180,
+    180
+  ],
+  "coordinate_domain_internal_lat_deg": [
+    -90,
+    90
+  ],
+  "H0_reference": "transferred Temple of Aphrodite in Acrocorinth; H=0 by internal definition",
+  "omphalos_G": {
+    "earth_meridian_G": 335.15392326410125,
+    "earth_parallel_G": 2.6297528677230546,
+    "venus_omphalos_lat_deg": 37.752006375180365,
+    "temporary_delphi_to_temple_deg": 0.3746419723351068,
+    "local_omphalos_longitude_deg": 0.0,
+    "local_omphalos_H": 0
+  },
+  "raster_register": {
+    "purpose": "visual overlay only",
+    "native_0E_assigned_to": "temporary transported Delphi meridian (visual chart gauge)",
+    "source_native_lon_deg_at_local_H0": 0.3746419723351068,
+    "source_lon_formula": "source_longitude_E = (APHRODITE_internal_signed_lon + temporary_delphi_to_temple_deg) mod 360",
+    "physical_body_fixed_registration_verified": false,
+    "used_to_define_omphalos_or_EA": false
+  },
+  "source": {
+    "url": "https://planetarymaps.usgs.gov/mosaic/Venus_Magellan_C3-MDIR_Global_Mosaic_2025m.tif",
+    "sha256": "833d5368564b626a787b6d0a2b2432a0afaa89f72d4b46e5221a19b3a01ec380",
+    "size_pixels": [
+      18775,
+      9388
+    ],
+    "native_longitude_deg": [
+      -180,
+      180
+    ],
+    "native_latitude_deg": [
+      -90,
+      90
+    ],
+    "credit": "NASA/JPL Magellan; USGS Astrogeology"
+  },
+  "tiles": {
+    "directory": "aphrodite_ea_map/tiles",
+    "z_min": 0,
+    "z_max": 5,
+    "z0_matrix": [
+      2,
+      1
+    ],
+    "max_matrix": [
+      64,
+      32
+    ],
+    "tile_size_px": 256,
+    "format": "WebP",
+    "tile_count": 2730
+  },
+  "test_mode_synthetic": false
+}
